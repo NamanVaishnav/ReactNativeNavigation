@@ -11,16 +11,15 @@ const ExploreScreen = () => {
                 <Text style={styles.screenTitle}> Restaurants</Text>
                 <View>
                     <Text style={styles.sectionTitle}>Restaurants Near You</Text>
-                    <RestaurantCard name='Sushi Restaurants' />
-                    <RestaurantCard name='Burger Restaurants' />
-                    <RestaurantCard name='Fine dining Restaurants' />
+                    <RestaurantCard name='Sushi Restaurants' onPress={() => { }} />
+                    <RestaurantCard name='Burger Restaurants' onPress={() => { }} />
+                    <RestaurantCard name='Fine dining Restaurants' onPress={() => { }} />
                 </View>
 
                 <View>
                     <Text style={styles.sectionTitle}>Most Poplar Restaurants</Text>
-                    <RestaurantCard name='Sushi Restaurants' />
-                    <RestaurantCard name='Burger Restaurants' />
-
+                    <RestaurantCard name='Sushi Restaurants' onPress={() => { }} />
+                    <RestaurantCard name='Burger Restaurants' onPress={() => { }} />
                 </View>
                 <Menu />
             </View>
