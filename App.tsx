@@ -30,10 +30,9 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 export type RootStackParams = {
-  Explore;
-  Restaurants;
-  Profile;
-
+  Explore: undefined;
+  Restaurants: undefined;
+  Profile: undefined;
 }
 
 const RootStack = createNativeStackNavigator<RootStackParams>();
